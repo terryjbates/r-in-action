@@ -10,10 +10,18 @@ y <- matrix(1:20, nrow=5, ncol=4)
 # [4,]    4    9   14   19
 # [5,]    5   10   15   20
 
+cells <-c(1, 26, 24, 68)
 
 mymatrix <-matrix(cells, nrow=2, ncol=2, byrow=TRUE,
-   dimnames=list(rnames,cnames))
+    dimnames=list(rnames,cnames))
 
 #    C1 C2
 # R1  1 26
 # R2 24 68
+
+mymatrix <-matrix(cells, nrow=2, ncol=2, byrow=FALSE, 
+    dimnames=list(rnames,cnames))
+
+   C1 C2
+R1  1 24
+R2 26 68
