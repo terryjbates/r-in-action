@@ -3,3 +3,13 @@
 
 # Example code in package build process
 *-Ex.R
+
+# Data files
+.RData
+
+# Merge tool files
+*.REMOTE.*
+*.BASE.*
+*.LOCAL.*
+*.orig
+*~
