@@ -12,4 +12,4 @@ plot(dose, drugB, type="b", pch=23, lty=6, col="blue", bg="green")
 
 par(opar)
 
-# End of file
+# End of file is found here
